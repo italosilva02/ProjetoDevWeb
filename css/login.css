@@ -57,6 +57,7 @@ input{
    font-size: 20px;
    animation-name: slidein;
    animation-duration: 3s;
+   background: none;
 }
 
 input:focus{
@@ -67,20 +68,20 @@ input:focus{
 #btn-loginPrincipal{
     width: 80px;
     height: 30px;
+    padding: 10px;
     color: rgb(8, 8, 8);
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    background-color: #21CE47;
     border: none;
-    border-radius: 50px;
     cursor: pointer;
     
 }
 
 #btn-loginPrincipal:hover{
-    background-color: #E76F51;
+    color: #E76F51;
     transition: all 0.2s;
+    font-weight: 900;
 }
 
 .btn button{
