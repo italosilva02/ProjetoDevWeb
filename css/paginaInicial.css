@@ -185,7 +185,69 @@ h2{
 }
 
 .body-principal{
-   
-    background-color: black;
+    background-color: #F4F5F9;
     background-size: cover;
+    width: 100%;
+}
+.eventos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    border-radius: 30px;
+    background-color: white;
+    
+    
+}
+.evento-info1, .evento-info2, .evento-info3, .evento-info4, .evento-info5{
+    background-size: cover;
+    border-radius: 30px;
+    width: 205px;
+    height: 260px;
+    margin: 20px;
+}
+
+.evento-info1{
+    background-image: url(../assets/img-eventos/aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg);
+}
+
+.evento-info2{
+    background-image: url(../assets/img-eventos/john-arano-_qADvinJi20-unsplash.jpg);
+}
+
+.evento-info3{
+    background-image: url(../assets/img-eventos/micheile-dot-com-U71p52sAdOA-unsplash.jpg);
+}
+
+.evento-info4{
+    background-image: url(../assets/img-eventos/samantha-gades-fIHozNWfcvs-unsplash.jpg);
+}
+
+.evento-info5{
+    background-image: url(../assets/img-eventos/carl-raw-8Gdayy2Lhi0-unsplash.jpg);
+}
+
+.eventos-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+}
+.eventos-text h3{
+    font-family: "Montserrat";
+    padding-top: 30px;
+    padding-bottom: 20px;
+    max-width: 30ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+
+.eventos-text p{
+    font-family: 'Inter', sans-serif;
+    max-width: 50ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
 }
