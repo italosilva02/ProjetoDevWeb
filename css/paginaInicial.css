@@ -8,9 +8,16 @@
     box-sizing: border-box;
 }
 
+body{
+    height: 100vh;
+    width: 100%;
+}
+
 .container{
     display: flex;
     flex-direction: row;
+    height: 100vh;
+    width: 100%;
 }
 
 .navBarTop img{
@@ -27,7 +34,7 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    padding-top: 70px;
+    padding-top: 10px;
 }
 
 .navBarBottom img{
@@ -205,27 +212,17 @@ h2{
     width: 205px;
     height: 260px;
     margin: 20px;
+    backdrop-filter: blur(4px);
 }
 
-.evento-info1{
+.img-bg{
     background-image: url(../assets/img-eventos/aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 25px;
 }
 
-.evento-info2{
-    background-image: url(../assets/img-eventos/john-arano-_qADvinJi20-unsplash.jpg);
-}
-
-.evento-info3{
-    background-image: url(../assets/img-eventos/micheile-dot-com-U71p52sAdOA-unsplash.jpg);
-}
-
-.evento-info4{
-    background-image: url(../assets/img-eventos/samantha-gades-fIHozNWfcvs-unsplash.jpg);
-}
-
-.evento-info5{
-    background-image: url(../assets/img-eventos/carl-raw-8Gdayy2Lhi0-unsplash.jpg);
-}
 
 .eventos-text{
     display: flex;
@@ -251,3 +248,85 @@ h2{
     text-overflow: ellipsis;
     white-space: wrap;
 }
+
+.img-bg:hover{
+    cursor: pointer;
+    color: black;
+    
+}
+
+.eventos-text {
+    z-index: 2;
+    position: absolute;
+    top: 21px;
+    max-width: 25ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    opacity: 1;
+    
+  }
+
+  .body-home{
+      border: 1px solid red;
+      height: 100%;
+      width: 100%;
+      border-radius: 30px;
+  }
+
+  .post-pessoa{
+      height: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+      margin-top: 10px;
+  }
+
+  .post-informacoes img{
+      position: absolute;
+      width: 70px;
+      border-radius: 60px;
+      left: 670px;
+      top: 350px;
+  }
+S
+
+  .post-informacoes{
+      display: flex;
+      flex: row;
+      justify-content: flex-start;
+  }
+
+  .post-informacoes input:focus{
+      border: 1px solid rgb(244, 248, 7);
+  }
+
+  @media screen and (max-device-width: 1400px) {
+	.container {
+		height: 100vh;
+        padding: 0%;
+	}
+
+    .evento-info1{
+        height: 300px;
+        width: 200px;
+    }
+
+    .eventos{
+        justify-content: flex-start;
+    }
+
+    .container-search{
+        width: 400px;
+    }
+
+    .post-informacoes input:focus{
+        border: 1px solid rgb(244, 248, 7);
+  }
+}
+
+
+
+
+
+
+
