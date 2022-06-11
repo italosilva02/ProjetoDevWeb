@@ -7,7 +7,7 @@ Projeto desenvolvido para o a aula de Desenvolvimento Web
 :pouting_woman: Geovanna <br>
 :pouting_man: Matheus <br>
 :pouting_man: Ítalo <br>
-:pouting_man: Phelipy <br>
+:pouting_man: Philipy <br>
 :pouting_man: Eder <br>
 
 
